@@ -4,7 +4,7 @@ from .serializers import ToDoSerializer
 from rest_framework.response import Response
 from rest_framework import status
 from .models import ToDo
-# Create your views here.
+
 
 class CreateToDoView(APIView):
    def post(self,request):

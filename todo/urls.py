@@ -6,5 +6,5 @@ urlpatterns = [
     path('getToDos',CreateToDoView.as_view(),name='get_todos'),
     path('updateToDo/<int:pk>',CreateToDoView.as_view(),name='update_todo'),
     path('deleteToDo',CreateToDoView.as_view(),name='delete_todo'),
-    #path('deleteAll',CreateToDoView.as_view(),name='delete_all'),
+    
 ]
